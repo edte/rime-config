@@ -1,11 +1,12 @@
 var:
-  last_build_time: 1686321247
+  last_build_time: 1686323412
   option:
     ascii_punct: true
     full_shape: false
-  previously_selected_schema: double_pinyin_plus
+  previously_selected_schema: luna_pinyin_simp
   schema_access_time:
-    double_pinyin_plus: 1686316991
+    double_pinyin_plus: 1686321290
     easy_en: 1686312873
+    luna_pinyin_simp: 1686323422
     numbers: 1686316930
     zrm2000: 1686311358

@@ -9,7 +9,7 @@
 - Mac OS X
   - Squirrel: `~/Library/Rime`
 - Linux
-  - Fcitx5: `~/.local/share/fcitx5/rime/`
+  - Fcitx5: `~/.local/share/fcitx5/rime`
   - Fcitx: `~/.config/fcitx/rime`
   - iBus: `~/.config/ibus/rime`
 
