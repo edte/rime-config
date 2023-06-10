@@ -8,6 +8,7 @@ patch:
   "style/color_scheme": wechat_light
   "style/color_scheme_dark": wechat_dark
   "style/horizontal": true
+  "style/font_face": "Sarasa_UI_SC"
 
   # 特定App默认中/英文输入
   app_options:
