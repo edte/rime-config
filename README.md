@@ -6,7 +6,7 @@
 
 1. 大写 `V` 进入自然码单字编码查询模式
 2. 大写 `U` 进入自然码拆字模式
-   > 前面两个模式无法使用 `,.` 翻页. 详细用法见 [README_zrm2000.dict.txt](./README_zrm2000.dict.txt)
+3. 前面两种模式, 所提示的编码不会上屏, 详细用法见 [README_zrm2000.dict.txt](./README_zrm2000.dict.txt)
 
 
 ## 文件位置
