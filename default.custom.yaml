@@ -13,3 +13,5 @@ patch:
   schema_list:
     - {schema: double_pinyin_plus}
     - {schema: easy_en}
+  switcher/hotkeys:
+    - "F1"
