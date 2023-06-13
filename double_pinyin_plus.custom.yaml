@@ -21,8 +21,7 @@ patch:
       - xlit/hspnz/一丨丿丶乙/
     comment_format:
       - xform/([nl])v/$1ü/
-
-patch:
+  
   translator/preedit_format: []
   "engine/translators/script_translator": lua_translator@date_translator
   

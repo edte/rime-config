@@ -30,7 +30,7 @@ switches:
     reset: 1
     states: [ 。，, ．， ]
   - name: emoji_suggestion
-    reset: 1
+    reset: 0
     states: [ "🈚︎", "🈶️" ]
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -170,6 +170,7 @@ key_binder:
   bindings:
     - { when: has_menu, accept: bracketleft, send: Page_Up } # 前翻页键 "["
     - { when: has_menu, accept: bracketright, send: Page_Down } # 后翻页键 "]"
+    - { when: always, accept: Control+backslash, toggle: emoji_suggestion } # 开关emoji
     # 暂时需要,.翻页
     #- { when: has_menu, accept: comma, send: comma } # 禁用前翻页键 "."
     #- { when: has_menu, accept: period, send: period } # 禁用后翻页键 ","
