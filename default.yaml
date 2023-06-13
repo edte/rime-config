@@ -48,7 +48,7 @@ key_binder:
       - key_bindings:/paging_with_minus_equal
       - key_bindings:/paging_with_comma_period
       # - key_bindings:/numbered_mode_switch
-      - key_bindings:/windows_compatible_mode_switch
+      - key_bindings:/optimized_mode_switch
 
 recognizer:
   patterns:
