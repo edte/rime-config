@@ -23,5 +23,4 @@ patch:
       - xform/([nl])v/$1ü/
   
   translator/preedit_format: []
-  "engine/translators/script_translator": lua_translator@date_translator
-  
+  "engine/translators/@script_translator": lua_translator@date_translator

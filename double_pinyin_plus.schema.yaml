@@ -27,12 +27,12 @@ switches:
     reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
-    reset: 1
     states: [ 。，, ．， ]
   - name: emoji_suggestion
     reset: 0
     states: [ "🈚︎", "🈶️" ]
   - name: full_shape
+    reset: 0
     states: [ 半角, 全角 ]
 
 engine:
