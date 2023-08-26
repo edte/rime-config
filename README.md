@@ -29,3 +29,5 @@
 [Rime Squirrel 鼠须管配置文件（朙月拼音、小鹤双拼、自然码双拼）](https://github.com/ssnhd/rime)
 
 [rimerc: rimer 的词库和配置](https://github.com/Bambooin/rimerc)
+
+[Rime](https://blog.isteed.cc/post/rime-2022/)
