@@ -1,49 +1,47 @@
 # 全局配置
-# 別改這個，改 default.custom.yaml
 
 # Rime default settings
 # encoding: utf-8
 
-config_version: '0.40'
+config_version: "2023-08-26"
 
+# 方案列表(即输入法列表)
 schema_list:
-  - schema: luna_pinyin
-  - schema: luna_pinyin_simp
-  - schema: luna_pinyin_fluency
-  - schema: bopomofo
-  - schema: bopomofo_tw
-  - schema: cangjie5
-  - schema: stroke
-  - schema: terra_pinyin
+  - schema: zrm_plus_plus
+  - schema: english
 
+# 显示方案选单(即输入法列表)的快捷键
 switcher:
-  caption: 〔方案選單〕
+  caption: "[方案菜单]"
   hotkeys:
     - Control+grave
-    - Control+Shift+grave
-    - F4
+    - F2
   save_options:
+    - simplification
+    - ascii_mode
     - full_shape
     - ascii_punct
-    - simplification
-    - extended_charset
-    - zh_hant
-    - zh_hans
-    - zh_hant_tw
+    - traditionalization
+    - emoji_suggestion
+
   fold_options: true
   abbreviate_options: true
   option_list_separator: '／'
 
+# 候选词数量
 menu:
   page_size: 5
 
+# 符号
 punctuator:
   full_shape:
-    __include: punctuation:/full_shape
+    __include: symbols:/punctuator/full_shape
   half_shape:
-    __include: punctuation:/half_shape
+    __include: symbols:/punctuator/half_shape
 
 key_binder:
+  select_first_character: "bracketleft" # lua 选词快捷键，选第一个字
+  select_last_character: "bracketright" # lua 选词快捷键，选最后一个字
   bindings:
     __patch:
       - key_bindings:/emacs_editing
@@ -55,15 +53,18 @@ key_binder:
 
 recognizer:
   patterns:
+    camel: "[a-z]+[A-Z].*$"
+    html: "^<[a-z]+>$"
     email: "^[A-Za-z][-_.A-Za-z]*@.*$"
     uppercase: "[A-Z]{2,}[-_+'A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 
+# 按键效果
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
-    Shift_L: inline_ascii
-    Shift_R: commit_text
+    Shift_L: commit_code
+    Shift_R: commit_code
     Control_L: noop
     Control_R: noop
     Caps_Lock: clear

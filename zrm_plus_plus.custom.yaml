@@ -8,7 +8,7 @@ patch:
   translator/preedit_format: []
   
   # 自定义词库
-  translator/dictionary: luna_pinyin.extended
+  translator/dictionary: extended
 
   # 自定义快捷键
   key_binder/bindings:

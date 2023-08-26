@@ -4,6 +4,7 @@
 patch:
   style:
     color_scheme: clean_white                 # 配色方案
+    translucency: true # 背景半透明总开关，不需要关掉即可
     horizontal: true                          # 水平排列
     inline_preedit: true                      # 内嵌预编辑。设置为 false 可在输入法中显示候选拼音
     corner_radius: 5                          # 候选词个数
