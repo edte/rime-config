@@ -68,9 +68,9 @@ engine:
     - simplifier@emoji_suggestion
     - simplifier
     - uniquifier
-  # - lua_filter@long_phrase_first # 最长词组和单字在先
-  # - lua_filter@single_char_first # 单字优先
-  # - lua_filter@single_char_only # 只显示单字
+    # - lua_filter@long_phrase_first # 最长词组和单字在先
+    # - lua_filter@single_char_first # 单字优先
+    # - lua_filter@single_char_only # 只显示单字
 
 # 自定义短语
 custom_phrase:
