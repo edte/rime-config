@@ -1,0 +1,12 @@
+# ~/Library/Rime/squirrel.custom.yaml
+# 外观设置
+
+patch:
+  style:
+    color_scheme: clean_white                 # 配色方案
+    horizontal: true                          # 水平排列
+    inline_preedit: true                      # 内嵌预编辑。设置为 false 可在输入法中显示候选拼音
+    corner_radius: 5                          # 候选词个数
+    font_face: "PingFangSC"                   # 候选词字体
+    font_point: 16                            # 候选字词大小
+    label_font_point: 14                      # 候选编号大小

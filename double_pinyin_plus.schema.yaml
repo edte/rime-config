@@ -171,7 +171,6 @@ key_binder:
     - { when: has_menu, accept: bracketleft, send: Page_Up } # 前翻页键 "["
     - { when: has_menu, accept: bracketright, send: Page_Down } # 后翻页键 "]"
     - { when: always, accept: Control+backslash, toggle: emoji_suggestion } # 开关emoji
-    # 暂时需要,.翻页
     #- { when: has_menu, accept: comma, send: comma } # 禁用前翻页键 "."
     #- { when: has_menu, accept: period, send: period } # 禁用后翻页键 ","
 

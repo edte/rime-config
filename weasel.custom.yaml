@@ -1,3 +1,5 @@
+# 发行版设定
+
 customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0

@@ -25,6 +25,7 @@ switches:
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: simplification
+    reset: 1
     states: [ 漢字, 汉字 ]
   - name: full_shape
     states: [ 半角, 全角 ]

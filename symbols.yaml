@@ -2,6 +2,7 @@
 # encoding: utf-8
 #
 # Usage: patch your Rime schema to enable /X symbols
+# 符号，在全半角下输入这些符号时候，就会显示对应的符号
 
 config_version: '1.4.2'
 
@@ -44,6 +45,7 @@ punctuator:
     ']' : [ 」, 】, 〕, ］, 〛, 〙 ]
     '{' : [ 『, 〖, ｛ ]
     '}' : [ 』, 〗, ｝ ]
+
   half_shape:
     ',' : { commit: ， }
     '.' : { commit: 。 }
