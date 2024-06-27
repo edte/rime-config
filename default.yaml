@@ -8,7 +8,7 @@ config_version: "2023-08-26"
 # 方案列表(即输入法列表)
 schema_list:
   - schema: zrm_plus_plus
-  - schema: english
+  # - schema: english
 
 # 显示方案选单(即输入法列表)的快捷键
 switcher:
