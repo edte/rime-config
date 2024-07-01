@@ -22,6 +22,12 @@
   - Fcitx: `~/.config/fcitx/rime`
   - iBus: `~/.config/ibus/rime`
 
+
+## 配置文件说明
+https://github.com/rime/home/wiki/RimeWithSchemata
+https://github.com/rime/home/wiki/CustomizationGuide
+
+
 ## 参考
 
 [Rime 双拼 + 自然码辅码 + English 混输方案](https://github.com/mutoe/rime)

@@ -13,6 +13,10 @@ patch:
   # 自定义快捷键
   key_binder/bindings:
     - { when: always, accept: Control+backslash, toggle: emoji_suggestion } # 开关emoji
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
   
   # 日期脚本, 会使中文标点失效, 待解决
   # "engine/translators/@script_translator": lua_translator@date_translator
+
+
