@@ -1,3 +1,3 @@
-2024/08/03-22:21:56.957960 0x16c6a7000 Table #363: 6887 entries OK
-2024/08/03-22:21:56.958402 0x16c6a7000 Archiving /Users/edte/Library/Rime/extended.userdb/MANIFEST-000001: OK
-2024/08/03-22:21:56.966644 0x16c6a7000 **** Repaired leveldb /Users/edte/Library/Rime/extended.userdb; recovered 1 files; 272640 bytes. Some data may have been lost. ****
+2024/08/03-23:36:06.233164 0x170643000 Table #363: 6887 entries OK
+2024/08/03-23:36:06.233811 0x170643000 Archiving /Users/edte/Library/Rime/extended.userdb/MANIFEST-000001: OK
+2024/08/03-23:36:06.241037 0x170643000 **** Repaired leveldb /Users/edte/Library/Rime/extended.userdb; recovered 1 files; 272640 bytes. Some data may have been lost. ****
