@@ -1,6 +1,0 @@
-2024/08/26-14:49:10.497946 0x16ee4f000 Log #490: 624 ops saved to Table #491 OK
-2024/08/26-14:49:10.498891 0x16ee4f000 Archiving /Users/edte/Library/Rime/zrm2000.userdb/000490.log: OK
-2024/08/26-14:49:10.498984 0x16ee4f000 Table #488: 704 entries OK
-2024/08/26-14:49:10.499013 0x16ee4f000 Table #491: 624 entries OK
-2024/08/26-14:49:10.499273 0x16ee4f000 Archiving /Users/edte/Library/Rime/zrm2000.userdb/MANIFEST-000489: OK
-2024/08/26-14:49:10.507793 0x16ee4f000 **** Repaired leveldb /Users/edte/Library/Rime/zrm2000.userdb; recovered 2 files; 42858 bytes. Some data may have been lost. ****

@@ -1,0 +1,4 @@
+2024/08/26-15:41:54.080561 0x1708fb000 Table #488: 704 entries OK
+2024/08/26-15:41:54.080875 0x1708fb000 Table #491: 624 entries OK
+2024/08/26-15:41:54.082036 0x1708fb000 Archiving /Users/edte/Library/Rime/zrm2000.userdb/MANIFEST-000001: OK
+2024/08/26-15:41:54.089522 0x1708fb000 **** Repaired leveldb /Users/edte/Library/Rime/zrm2000.userdb; recovered 2 files; 42858 bytes. Some data may have been lost. ****
